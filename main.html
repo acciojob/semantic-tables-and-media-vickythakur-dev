@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HTML Assignment #3</title>
+  <title>Semantic Tables and Media</title>
 </head>
 <body>
-
-  <h2>HTML Assignment #3</h2>
 
   <table border="1">
     <thead>
@@ -29,22 +27,27 @@
         <td>Charlie</td>
       </tr>
     </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">End of Table</td>
+      </tr>
+    </tfoot>
   </table>
 
-  <h3>List of medias</h3>
+  <h2>List of medias</h2>
 
   <ol>
     <li>
-      <img src="https://picsum.photos/id/123/200/300" alt="Sample image from Picsum">
+      <img src="https://picsum.photos/id/123/200/300" alt="Sample photo from Picsum photos library">
     </li>
     <li>
-      <video controls width="300">
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+      <video controls width="320">
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
       </video>
     </li>
     <li>
       <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
       </audio>
     </li>
   </ol>
